@@ -1,0 +1,156 @@
+{
+  "basics": {
+    "name": "Nathan Lam",
+    "label": "Student",
+    "picture": "https://nathancy.github.io/images/profile_nathan_lam.jpg",
+    "email": "nathancy@hawaii.edu",
+    "phone": "808-206-1027",
+    "website": "https://nathancy.github.io",
+    "summary": "I am pursuing a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring 2018.",
+    "location": {
+      "address": "",
+      "postalCode": "96815",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "nathancy",
+        "url": "http://github.com/nathancy"
+      },
+      {
+        "network": "linkedin",
+        "username": "Nathan Lam",
+        "url": "http://linkedin.com/in/nathan-lam-14b936112"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Embedded Systems",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Firmware Development",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Python"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Vim",
+        "gcc",
+        "g++",
+        "Git/GitHub",
+        "Ubuntu",
+        "Windows",
+        "Verilog",
+        "MATLAB",
+        "Cygwin"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2014-09-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Spectrum Photonics Inc.",
+      "position": "Engineering Intern",
+      "website": "http://spectrum-photonics.com/",
+      "startDate": "2016-05-06",
+      "endDate": "Present",
+      "summary": "Designed and implemented web-based data-logger",
+      "highlights": [
+        "Built data-logger web-server from scratch using the Django web framework",
+        "Wrote Python scripts to log data via UART on a Raspberry Pi into .csv files",
+        "Designed and customized web interface using HTML5/CSS to create, edit, remove, or view logging data"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "American Red Cross Summer Buddies",
+      "website": "http://www.redcross.org/local/hawaii/take-a-class/aquatics",
+      "position": "Swim Coordinator",
+      "startDate": "2008-06-01",
+      "endDate": "2014-08-01",
+      "summary": "Taught kids (ages 3-11) how to swim, educated about ocean safety, First Aid/CPR Certification, and various community service projects.",
+      "highlights": [
+      ]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Member, IEEE-Eta Kappa Nu Honor Society, 2016-Present",
+        "Member, IEEE Student Branch, 2015-Present",
+        "Member, Golden Key International Honor Society, 2015-Present",
+        "Member, Honors Program, 2014-Present"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Manoa Chancellor's Scholarship",
+      "date": "2014-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "A maximum of 80 scholarships of $10,000 annually ($5,000/semester) will be awarded by the Office of Admissions to high-achieving Hawaiʻi high school graduates."
+    },
+    {
+      "title": "Dean's List",
+      "date": "Fall 2014-Present",
+      "awarder": "University of Hawaii College of Engineering",
+      "summary": "Awarded to students who earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade."
+    },
+    {
+      "title": "1st Place Division B Oahu Mathematics League Champions",
+      "date": "2011-2013",
+      "awarder": "Oahu Math League",
+      "summary": "OML is a mathematics competition league open to high schools statewide which include 32 schools (19 public, 13 private), including five Big Island schools who compete remotely."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
