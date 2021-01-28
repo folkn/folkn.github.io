@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0;padding:0;list-style:none; }
+html, body { min-height:100%; min-width:100%;} 
+body{ padding:0; margin:0;	color:#000;	font-family:Tahoma,Arial,Helvetica,sans-serif;	font-size:1em;	line-height:1.2em;	}
+
+#header { margin:0px; padding: 20px 40px;  background-color:rgba(1,1,1,0.06); border-radius: 2px; font-size:1em;}
+#header h2{	font-size:2em;  color:rgba(255,255,255,1.00); text-shadow:0 1px 1px rgba(118,2,255,1.00);	white-space: nowrap;}
+
+
+.cssExm{margin:10px 20px; padding: 10px; border: 1px rgba(0,0,0,0.40) solid;  border-radius: 10px; }
+.cssMaj{margin: 2px; padding: 2px 0 0 20px; font: 1.2em bold; }
+.cssSubj{margin: 2px; padding: 2px 0 0 34px; font: 1.1em  bold; }
+.cssExContend{margin:10px 20px; padding: 10px 34px; font: 1em  bold; border: 1px rgba(0,0,0,0.40) solid;  border-radius: 2px;}
+.cssQue{margin:10px 20px; padding: 10px; border: 1px rgba(0,0,0,0.40) solid;  border-radius: 10px; }
+.cssExTopic{margin: 0; padding: 10px 0 4px 34px; color: rgba(0,0,0,1.00); }
+.cssExChoice{margin: 0; padding: 4px 0 10px 54px; color: rgba(0,0,0,0.60);}
+
+#footer { margin:10px 20px; padding: 10px; border-radius: 2px; font-size:1em;}
+
+#footer .box{ margin:0; padding:4px; line-height:1.5em;	text-align:center; background-color:rgba(255,255,255,1.00);}
+#footer .boxMid{ margin:0;	padding:4px; color:rgba(0,0,0,1.00);	font-size:0.9em; line-height:1.5em;}
+#footer .boxlast{ margin:0;	padding:4px;}
+
+a:link,a:visited {color:#999; text-decoration:none;}    /* unvisited link border: 1px rgba(0,0,0,0.40) solid;   */
+a:hover {color:#666;}   /* mouse over link */
+a:active {color:#333;}  /* selected link */
