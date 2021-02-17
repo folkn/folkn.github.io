@@ -2,7 +2,12 @@
 <html> 
   
 <head> 
-    <title>full screen iframe</title> 
+  <script>
+    if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+  </script>
+    <title>KNOWLEDGE 101 ACADEMY</title> 
     <style type="text/css"> 
         html { 
             overflow: auto; 
