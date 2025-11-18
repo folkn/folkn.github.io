@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://folkn.github.io/al-folio/sitemap.xml
+Sitemap: https://folkn.github.io//sitemap.xml
