@@ -15,6 +15,6 @@ Select publications are shown here. A more complete list can be found: [Google S
 
 <div class="publications">
 
-{% bibliography --query @*[year<2026] %}
+{% bibliography %}
 
 </div>
