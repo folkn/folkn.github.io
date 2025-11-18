@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"rispoli":
+  - firstname: ["Joseph", "J.V.", "J. V.", "Joseph V."]
+    url: https://med.virginia.edu/faculty/faculty-listing/jvr4a/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"ramesh":
+  - firstname: ["Thejas Vishnu"]
+    url: https://www.linkedin.com/in/thejas-vishnu-ramesh-207099140
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"rayz":
+  - firstname: ["Vitaliy", "Vitaliy L."]
+    url: https://engineering.purdue.edu/CFML
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"chang":
+  - firstname: ["Christopher J.S."]
+    url: https://engineering.purdue.edu/CFML
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"martin-moreno":
+  - firstname: ["Sergio"]
+    url: https://engineering.purdue.edu/CFML/people/ptProfile?resource_id=290427&group_id=162142
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"susnjar":
+  - firstname: ["Antonia"]
+    url: https://www.linkedin.com/in/antonia-susnjar-612805172
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"terlep":
+  - firstname: ["Arthur"]
+    url: https://www.rose-hulman.edu/academics/faculty/terlep-art-terlep.html
