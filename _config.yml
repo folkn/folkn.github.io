@@ -9,9 +9,9 @@ last_name: Narongrit
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Folk Narongrit is a Postdoctoral Researcher at the University of California, Berkeley, in the Department of Electrical Engineering and Computer Sciences (EECS).
 footer_text: >
-  Folk Narongrit
+  Powered by the Internet. This website does not collect Cookies and does not track visitors.
 keywords: folk, narongrit, MRI, postdoc, professor, RF, EECS, ECE, Berkeley, Purdue, BME # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📚 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -45,10 +45,10 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -84,7 +84,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Folk Narongrit # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -267,7 +267,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Narongrit]
-  first_name: [Folk]
+  first_name: ["Folk", "W"]
 
   style: ieee
   locale: en
@@ -365,6 +365,7 @@ imagemagick:
     - ".png"
     - ".tiff"
     - ".gif"
+    - ".webp"
   output_formats:
     webp: "-quality 85"
 
