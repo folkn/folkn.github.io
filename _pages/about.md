@@ -29,7 +29,7 @@ latest_posts:
 
 I am a **Postdoctoral Scholar** at the [Department of Electrical Engineering and Computer Sciences](https://eecs.berkeley.edu/), University of Berkeley, hosted by [Prof. Chunlei Liu](http://chunleiliulab.github.io/).
 
-I completed my graduate studies at the Schools of [Electrical & Computer Engineering](https://engineering.purdue.edu/ECE) and [Biomedical Engineering](https://engineering.purdue.edu/BME) at Purdue University, supervised by Prof. Edward J. Delp and Prof. Joseph V. Rispoli.
+I completed my graduate studies at the Schools of [Electrical & Computer Engineering](https://engineering.purdue.edu/ECE) and [Biomedical Engineering](https://engineering.purdue.edu/BME) at Purdue University, supervised by Prof. Edward J. Delp and Prof. Joseph V. Rispoli. I also received a Master's in Electrical Engineering at the [University of Southern California](https://minghsiehece.usc.edu/).
 
 I am the recipient of the [IEEE MTT-S Graduate Fellowship in Microwave Engineering for Medical Applications](https://mtt.org/fellowship-projects/), the [Bakar Innovation Fellowship](https://bakarfellows.berkeley.edu/) for technology commercialization efforts, and the King of Thailand Research Fellowship. 
 
