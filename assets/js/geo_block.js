@@ -1,0 +1,1 @@
+!function(){function t(){n||(n=!0,e.style.visibility="visible")}var e=document.getElementById("geo-gate");if(e){var n=!1,i=setTimeout(t,4e3);fetch("https://ipapi.co/json/",{cache:"no-store"}).then((function(t){return t.json()})).then((function(e){clearTimeout(i),e&&"TH"===e.country_code||t()})).catch((function(){clearTimeout(i),t()}))}}();
