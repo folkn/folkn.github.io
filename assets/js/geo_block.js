@@ -1,18 +1,25 @@
 /*
-  Hides the homepage content for visitors whose IP address geolocates to Thailand.
-  The content is hidden by default via inline style (see about.liquid) to avoid a
-  flash of content before this script runs; it is only revealed once we've confirmed
-  the visitor is NOT in Thailand, or if the geolocation lookup fails (fail-open).
+  Replaces the homepage content with an "unsupported region" message for visitors
+  whose IP address geolocates to Thailand. The content is hidden by default via
+  inline style (see about.liquid) to avoid a flash of content before this script
+  runs; it is only revealed once we've confirmed the visitor is NOT in Thailand,
+  or if the geolocation lookup fails (fail-open).
 */
 (function () {
   var gate = document.getElementById('geo-gate');
+  var unsupported = document.getElementById('geo-unsupported');
   if (!gate) return;
 
-  var revealed = false;
+  var resolved = false;
   function reveal() {
-    if (revealed) return;
-    revealed = true;
+    if (resolved) return;
+    resolved = true;
     gate.style.visibility = 'visible';
+  }
+  function showUnsupported() {
+    if (resolved) return;
+    resolved = true;
+    if (unsupported) unsupported.style.display = '';
   }
 
   // Fail-open safeguard: never leave the page blank forever if the geolocation
@@ -26,7 +33,7 @@
     .then(function (data) {
       clearTimeout(fallbackTimer);
       if (data && data.country_code === 'TH') {
-        // Leave the content hidden for Thailand-based visitors.
+        showUnsupported();
         return;
       }
       reveal();
