@@ -805,8 +805,9 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        .btn {
           color: var(--global-text-color);
+          background-color: transparent;
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
@@ -877,6 +878,71 @@ footer.sticky-bottom {
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+
+      dialog.bibtex-dialog {
+        width: min(90vw, 48rem);
+        max-height: 85vh;
+        padding: 0;
+        color: var(--global-text-color);
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 0.5rem;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+        text-align: left;
+
+        &::backdrop {
+          background: rgba(0, 0, 0, 0.55);
+        }
+
+        .bibtex-dialog-content {
+          padding: 1rem;
+        }
+
+        .bibtex-dialog-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 1rem;
+          margin-bottom: 1rem;
+
+          h3 {
+            margin: 0;
+          }
+        }
+
+        .bibtex-close:not(.btn) {
+          padding: 0 0.25rem;
+          color: var(--global-text-color);
+          background: transparent;
+          border: 0;
+          font-size: 1.75rem;
+          line-height: 1;
+          cursor: pointer;
+        }
+
+        .bibtex-entry {
+          max-height: 55vh;
+          overflow: auto;
+
+          figure.highlight,
+          pre {
+            margin: 0;
+          }
+        }
+
+        .bibtex-dialog-actions {
+          display: flex;
+          gap: 0.5rem;
+          justify-content: flex-end;
+          margin-top: 1rem;
+        }
+
+        .bibtex-copy-status {
+          min-height: 1.4em;
+          margin: 0.5rem 0 0;
+          text-align: right;
+        }
       }
     }
     div.award.hidden {

@@ -1,19 +1,48 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
+  // add toggle functionality to abstract and award buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
   $("a.award").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+
+  // show BibTeX in a dialog and make the entry easy to copy
+  $("button.bibtex").click(function () {
+    const dialog = document.getElementById($(this).attr("aria-controls"));
+    if (dialog) {
+      dialog.showModal();
+    }
+  });
+  $(".bibtex-dialog .bibtex-close").click(function () {
+    $(this).closest("dialog")[0].close();
+  });
+  $(".bibtex-dialog").click(function (event) {
+    if (event.target === this) {
+      this.close();
+    }
+  });
+  $(".bibtex-copy").click(async function () {
+    const dialog = $(this).closest("dialog")[0];
+    const bibtex = dialog.querySelector(".bibtex-entry").textContent.trim();
+    const status = dialog.querySelector(".bibtex-copy-status");
+
+    try {
+      await window.navigator.clipboard.writeText(bibtex);
+      status.textContent = "Copied to clipboard.";
+    } catch (_error) {
+      const textArea = document.createElement("textarea");
+      textArea.value = bibtex;
+      textArea.style.position = "fixed";
+      textArea.style.opacity = "0";
+      document.body.appendChild(textArea);
+      textArea.select();
+      const copied = document.execCommand("copy");
+      textArea.remove();
+      status.textContent = copied ? "Copied to clipboard." : "Select the entry above and copy it manually.";
+    }
   });
   $("a").removeClass("waves-effect waves-light");
 
